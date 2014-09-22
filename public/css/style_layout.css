@@ -400,6 +400,9 @@ body {
     margin-top: 20px;
     border-bottom: #323232 dashed 1px;
 }
+.menu-footer .logo {
+    padding-bottom: 10px;
+}
 .logo-footer {
     background: url("../images/footer/logo.png") no-repeat ;
     width: 250px;
