@@ -1,6 +1,7 @@
-/**
- * Created by NgocSon on 9/10/14.
- */
+var framework = require('total.js');
+var http = require('http');
 
+var port = parseInt(process.env.PORT || '3000');
+var debug = true;
 
-require('total.js').http('debug');
+framework.run(http, debug, port, '0.0.0.0');
