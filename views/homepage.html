@@ -29,11 +29,9 @@
                 <li><a href="#">BLOCK</a></li>
             </ul>
         </nav>
-
         <form class="navbar-form search" role="search">
             <input type="text" class="form-control" placeholder="Search..."style="width: 100%;" >
         </form>
-
         <div class="clearfix"></div>
     </div>
     <!--end menu-top 2-------------------------------------------------->
@@ -90,10 +88,10 @@
             <li><a href="#">5</a></li>
             <li><a href="#">6</a></li>
             <li><a href="#">9</a></li>
-            <span class="count-down">Downloads</span>
         </ul>
-
     </div>
+    <span class="count-down pull-right hidden-xs hidden-sm">Downloads</span>
+    <p class="count-down1 hidden-lg hidden-md">Downloads</p>
 </div>
 <div class="clearfix"></div>
 <div id="hightlight_features" class="container ">
@@ -234,17 +232,38 @@
         <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut</p>
         <p> commodo consequat.</p>
     </div>
-    <ul class="row show-img">
-        <li class="col-md-4 col-sm-12 ">
-            <a hre="#"><img src="/images/layer1.png"></a>
-        </li>
-        <li class="col-md-4 col-sm-12">
-            <a hre="#"><img src="/images/layer1.png"></a>
-        </li>
-        <li class="col-md-4 col-sm-12">
-            <a hre="#"><img src="/images/layer1.png"></a>
-        </li>
-    </ul>
+    <div class="row show-img">
+        <div class="col-md-4 col-sm-4 col-xs-4">
+            <div class="xoverlay x-simple">
+                <img class=" x-img-main" src="/images/layer1.png">
+                <div class="xoverlay-box">
+                    <div class="xoverlay-data">
+                        <span class="x-circle x-white"><a href="#"><i class="fa fa-eye eye" style="border-radius: 0px;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+            <div class="xoverlay x-simple">
+                <img class=" x-img-main" src="/images/layer1.png">
+                <div class="xoverlay-box">
+                    <div class="xoverlay-data">
+                        <span class="x-circle x-white"><a href="#"><i class="fa fa-eye eye" style="border-radius: 0px;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4">
+            <div class="xoverlay x-simple">
+                <img class=" x-img-main" src="/images/layer1.png">
+                <div class="xoverlay-box">
+                    <div class="xoverlay-data">
+                        <span class="x-circle x-white"><a href="#"><i class="fa fa-eye eye" style="border-radius: 0px;"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <p class="showcase lead">
         <a class="btn btn-outline-inverse btn-lg downnode" href="getting-started#download"><span class="glyphicon glyphicon-arrow-right"></span>&nbsp;Showcase</a>
     </p>
@@ -283,8 +302,12 @@
 </div>
 <div class="footer container">
     <div class="menu-footer col-md-12">
-        <p class="logo-footer col-sm-6 col-xs-6"></p>
-        <p class="col-xs-6">Node.js&reg; is a platform built on Chrome's JavaScrupt runtime for easily buiding fast,...</p>
+        <div class="col-md-3 col-sm-4 col-xs-5">
+            <span class="logo-footer"></span>
+        </div>
+        <div class="col-md-9 col-sm-8 col-xs-7">
+            <span class="slogan">Node.js&reg; is a platform built on Chrome's JavaScrupt runtime for easily buiding fast,...</span>
+        </div>
     </div>
     <div class="row bor-footer">
         <div class="email col-md-4 col-xs-12">
@@ -298,12 +321,18 @@
                 <button type="submit" class="btn btn-default col-md-4">Subscribe</button>
             </div>
             <h4>Follow With Us</h4>
-            <ul class="icon-email nav navbar-nav">
-                <li class="icon-facebook col-xs-3"><a></a></li>
-                <li class="icon-twitter col-xs-3"><a></a></li>
-                <li class="icon-in col-xs-3"><a></a></li>
-                <li class="icon-google col-xs-3"><a></a></li>
-            </ul>
+            <div class="facebook col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><li class="fa fa-facebook"></li></a>
+            </div>
+            <span class="twitter col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><li class="fa fa-twitter"></li></a>
+            </span>
+            <span class="pinterest col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><li class="fa fa-pinterest"></li></a>
+            </span>
+            <span class="google col-md-2 col-sm-2 col-xs-2">
+                <a href="#"><li class="fa fa-google-plus"></li></a>
+            </span>
         </div>
         <div class="overview col-md-4 col-xs-12">
            <h3>Overview</h3>

@@ -7,8 +7,6 @@
 
 function view_homepage(){
     var self = this;
-    var User = self.model('user');
-    console.log(User);
 
     self.view('homepage');
 }
