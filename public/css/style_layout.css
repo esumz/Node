@@ -100,7 +100,7 @@ body {
     float: left;
 }
 .menu-top form{
-    margin-top: 0px;
+    margin-top: 2px;
     width: 260px;
     float: left;
     margin-right: 30px;
@@ -133,7 +133,7 @@ body {
 }
 .logocart {
     background:url('../images/logo.png') no-repeat ;
-    margin-top: -10px;
+    margin-top: -22px;
     float: left;
     width: 50px;
     height: 50px;
