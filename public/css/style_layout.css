@@ -1,0 +1,467 @@
+div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;font-family: 'segoe';
+}
+hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse; border-spacing: 0;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color:#408afa;
+}
+a:active {
+    text-decoration: none;
+}
+@font-face {
+    font-family: segoe;
+    src: url('../fonts/segoeui.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: Sparkler;
+    src: url('../fonts/Sparkler-demo.ttf') ;format('tuetype')
+    font-weight:normal;
+    font-style:normal;
+}
+ h2 {
+     font-family: 'Sparkler';
+ }
+ p ,span,ul li h4{
+     font-family: 'segoe';
+ }
+body {
+    background: #282828;
+}/*------------------HEADER--------------------*/
+#header {
+    background:#232323 ;
+}
+.btn-default {
+    background: none repeat scroll 0 0 #00acdf;
+    color: #fff;
+}
+.glyphicon{
+    color:#ffffff ;
+}
+.glyphicon-user {
+    background: #00acdf;
+}
+.form-control {
+    background-color: #2d2d2d;
+    border: solid #2d2d2d;
+
+}
+.signup {
+    background: #83cd29;
+    margin-right: 5px;
+}
+.login {
+    margin-right: 5px;
+    background: #00acdf;
+}
+.menu-top {
+    border-bottom: 2px solid #2d2d2d !important;
+    padding-top: 7px;
+    padding-bottom: 40px;
+}
+.menu-top2{
+    padding-top:20px;
+    border-bottom: 2px solid #2d2d2d !important;
+}
+.menu-top2 input {
+    background:url('../images/search.png')   no-repeat right center;
+}
+.menu-top2 button{
+    float: left;
+}
+.top-bar{
+    margin-top: -7px;
+}
+.top-bar li{
+    width: 80px;
+    float: left;
+}
+.menu-top form{
+    margin-top: 0px;
+    width: 260px;
+    float: left;
+    margin-right: 30px;
+}
+.menu-top input {
+    background:url('../images/search.png')   no-repeat right center;
+}
+.menu-top button{
+    color: #fff;
+}
+.menu-top ul li {
+    font-size: 11px;
+}
+.nav li a {
+    padding: 8px 15px;
+    color: #666666;
+}
+.bs-navbar-collapse{
+    margin-bottom: 20px;
+    display: inline;
+}
+.logo {
+    padding-top: 25px;
+}
+.navbar-header p{
+    color: #b8b8b8;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: -10px ;
+}
+.logocart {
+    background:url('../images/logo.png') no-repeat ;
+    margin-top: -10px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+ a h2{
+    font-size: 30px;
+    margin-top: -15px;
+    color: #ffffff;
+}
+
+.icon-bar {
+    background-color: #b8b8b8;
+}
+.menu-bar{
+    padding-top: 25px;
+}
+/*------------------BANNER--------------------*/
+#banner {
+    background: #00acdf;
+    padding-bottom: 50px;
+}
+.logo-banner{
+    height: 172px;
+    background:url('../images/logo2.png')#00acdf no-repeat ;
+    width: 152px;
+    margin: 0px auto;
+    margin-top: 87px;
+ }
+.logo-menu h2{
+    color: #ffffff;
+    font-size: 72px;
+    text-align: center;
+}
+.logo-menu {
+    padding: 30px 0;
+}
+.logo-menu p{
+    color: #ffffff ;
+    font-size: 24px;
+    text-align: center;
+}
+.download {
+    text-align: center;
+}
+.downnode{
+    padding: 15px 35px;
+}
+.download p a{
+    color:#ffffff ;
+    font-size: 18px;
+}
+.version {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+/*-------count-------*/
+.count {
+    background: url("../images/banner/bg.png") center center;
+    padding: 15px;
+}
+
+.count ul li a {
+    border: 1px solid #aeaeae;
+    font-size: 60px;
+    margin-right: 3px;
+}
+.count ul span {
+    float: left;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.count2 {
+    text-align: center;
+}
+
+/*-------------Highlight-feature--------*/
+#hightlight_features {
+    background: #e8ebeb;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.hightlight_features{
+    background: #e8ebeb;
+    margin-left: -15px;
+    margin-bottom: 50px;
+}
+.hightlight_features h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+}
+.hightlight_features p{
+    font-size: 18px;
+    text-align: center;
+}
+.icon-row{
+    margin-bottom: 80px;
+    padding:50px;
+    background: url("../images/feature/bg.png")center center;
+}
+.row-icon, .col-sm-4, .col-xs-12{
+    padding-bottom: 60px;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9,.icon10,.icon11,.icon12{
+    height: 40px;
+    width: 40px;
+}
+.icon1{
+    background: url("../images/icon-earth.png")no-repeat left;
+}
+.icon2{
+    background: url("../images/icon-database.png")no-repeat left;
+}
+.icon3{
+    background: url("../images/icon-cogs.png")no-repeat left;
+}
+.icon4{
+    background: url("../images/icon-tool.png")no-repeat left;
+}
+.icon5{
+    background: url("../images/icon-download.png")no-repeat left;
+}
+.icon6{
+     background: url("../images/icon-popout.png")no-repeat left;
+ }
+.icon7{
+      background: url("../images/icon-mobile.png")no-repeat left;
+  }
+.icon8{
+       background: url("../images/icon-clound.png")no-repeat left;
+   }
+.icon9{
+    background: url("../images/icon-images.png")no-repeat left;
+}
+.icon10{
+    background: url("../images/icon-pallete.png")no-repeat left;
+}
+.icon11{
+    background: url("../images/icon-tag.png")no-repeat left;
+}
+.icon12{
+    background: url("../images/icon-file.png")no-repeat left;
+}
+/*-------------Show Case----------*/
+#show-case{
+    background: #00acdf;
+    padding-bottom: 100px;
+}
+.menu-case{
+    margin-left: -15px;
+}
+.menu-case h2{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+.menu-case p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+.glyphicon-arrow-right{
+
+}
+
+.show-img li{
+    margin-top: 20px;
+    text-align: center;
+}
+.showcase {
+    text-align: center;
+    margin-top: 30px;
+}
+/*-------webhosting------*/
+#webhosting {
+    background: #e8ebeb;
+    padding-bottom: 80px;
+}
+.webhosting h2  {
+    margin-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    color: #232323;
+}
+.webhosting p{
+    font-size: 18px;
+    text-align: center;
+    color: #232323;
+}
+.hosting {
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.hosting li{
+    text-align: center;
+}
+/*---------Bottom-------*/
+.footer {
+    background: #232323;
+}
+.menu-footer {
+    margin-top: 20px;
+    border-bottom: #323232 dashed 1px;
+}
+.logo-footer {
+    background: url("../images/footer/logo.png") no-repeat ;
+    width: 250px;
+    height: 100px;
+}
+.menu-footer p{
+    color: #999999;
+    font-size: 14px;
+    margin-top: 20px;
+    float: left;
+}
+.bor-footer{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.form-footer {
+    margin-top: 20px;
+}
+.email h3,.overview h3,.fb h3{
+    color: #02a5d6;
+    font-size: 18px;
+}
+.progress {
+    height: 1px;
+    margin-top: 10px;
+    background:#333333;
+}
+.email p{
+    color:#999999 ;
+    font-size: 12px;
+    margin-top:20px;
+}
+.email h4{
+    font-size: 14px;
+    padding-top: 70px;
+    color: #999999;
+}
+.control2{
+    width: 220px;
+    float: left;
+    margin-right: 10px;
+}.email span{
+    font-size: 14px;
+ }
+ .email ul li {
+     margin-top: 20px;
+     margin-right: 5px;
+ }
+.icon-facebook {
+    background: url("../images/footer/facebook.png") no-repeat ;
+    height: 40px;
+    width: 40px;
+}
+.icon-twitter{
+    background: url("../images/footer/twitter.png") no-repeat ;
+    height: 40px;
+    width: 40px;
+}
+.icon-in{
+    background: url("../images/footer/in.png") no-repeat ;
+    height: 40px;
+    width: 40px;
+}
+.icon-google{
+    background: url("../images/footer/g+.png") no-repeat ;
+    height: 40px;
+    width: 40px;
+}
+.group ul{
+    margin-top: 20px;
+}
+.group ul li {
+    margin-bottom: 20px;
+}
+.group ul li a{
+    margin-bottom: 20px;
+    color: #999999;
+}
+.group ul li a:hover{
+    color: #00acdf;
+}
+.fb img {
+    margin-top: 20px;
+}
+.btn-outline-inverse {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.footer {
+    border-bottom: #323232 dashed 1px;
+}
+/*-----------bootom---------*/
+.bootom {
+    background: #232323;
+    padding-top: 20px;
+}
+.bootom h4 {
+    font-size: 12px;
+    color:#626262 ;
+    float: left;
+}
+.top-up{
+    height: 40px;
+    width: 40px;
+    background: #00acdf;
+    text-align: center;
+    float: right;
+}
+.glyphicon-chevron-up{
+    margin-top: 13px;
+    font-size: 10px;
+}
+
+
+@media (max-width: 648px){
+    .search {
+        width: 500px;
+    }
+}
+

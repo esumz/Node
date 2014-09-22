@@ -1,0 +1,23 @@
+{
+  "name": "NodeCart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "total.js": "1.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://54.179.129.244:4000/root/nodecart-homepage.git"
+  },
+  "keywords": [
+    "nodejs",
+    "nodecart"
+  ],
+  "author": "thaoha",
+  "license": "MIT"
+}
