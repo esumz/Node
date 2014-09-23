@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0c9d8b2-6849-4860-a164-5c4a0728bd2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hosting/layer8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage.html" afterPath="$PROJECT_DIR$/views/homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style_layout.css" afterPath="$PROJECT_DIR$/public/css/style_layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -58,7 +49,7 @@
       <file leaf-file-name="style_layout.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style_layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="427" column="14" selection-start="8389" selection-end="8389" vertical-scroll-proportion="0.43641618" vertical-offset="7535" max-vertical-offset="10926">
+            <state line="315" column="16" selection-start="6190" selection-end="6190" vertical-scroll-proportion="0.43641618" vertical-offset="5519" max-vertical-offset="10908">
               <folding />
             </state>
           </provider>
@@ -401,7 +392,11 @@
       <created>1411447368669</created>
       <updated>1411447368669</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update css">
+      <created>1411447732943</created>
+      <updated>1411447732943</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -821,7 +816,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style_layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="427" column="14" selection-start="8389" selection-end="8389" vertical-scroll-proportion="0.43641618" vertical-offset="7535" max-vertical-offset="10926">
+        <state line="315" column="16" selection-start="6190" selection-end="6190" vertical-scroll-proportion="0.43641618" vertical-offset="5519" max-vertical-offset="10908">
           <folding />
         </state>
       </provider>
