@@ -89,6 +89,9 @@ body {
 .menu-top .top-menu li a{
     color: #b6b6b6;
 }
+.menu-top .top-menu li a:hover {
+    background: none;
+}
 .menu-top button.signup, .menu-top button.login {
     border: none;
 }
@@ -403,6 +406,7 @@ body {
 }
 .hosting li{
     text-align: center;
+    padding-bottom: 30px;
 }
 .fa-eye {
     background: #fff;
@@ -422,7 +426,7 @@ body {
     border-bottom: #323232 dashed 1px;
 }
 .menu-footer .logo {
-    padding-bottom: 10px;
+    padding: 0;
 }
 .logo-footer {
     background: url("../images/footer/logo.png") no-repeat ;
