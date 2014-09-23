@@ -394,6 +394,12 @@ body {
 .showcase {
     text-align: center;
 }
+.showcase a{
+   font-size: 16px;
+}
+.showcase .glyphicon {
+    font-size: 12px;
+}
 .eye {
     color: #00acdf;
 }
