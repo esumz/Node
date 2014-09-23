@@ -81,13 +81,14 @@ body {
     padding-top: 7px;
 }
 .menu-top .search input {
-    border: 1px solid #2d2d2d;
+    /*border: 1px solid #2d2d2d;*/
+    background-color: #2d2d2d;
 }
 .menu-top .top-menu {
     margin-bottom: 0;
 }
 .menu-top .top-menu li a{
-    color: #b6b6b6;
+    color: #666;
 }
 .menu-top .top-menu li a:hover {
     background: none;
@@ -98,10 +99,12 @@ body {
 .menu-top button.signup:hover,.menu-top2 button.signup:hover{
     background: #83cd29;
     color: #fff;
+    opacity: 0.7;
 }
 .menu-top button.login:hover,.menu-top2 button.login:hover{
     background: #00acdf;
     color: #fff;
+    opacity: 0.7;
 }
 .menu-top2{
     padding-top:20px;
@@ -180,6 +183,8 @@ body {
 }
 .menu-bar li a:hover {
     border-radius: 5px;
+    color: #232323;
+    background-color: #fff;
 }
 /*------------------BANNER--------------------*/
 #banner {
@@ -268,11 +273,14 @@ body {
     text-align: center;
     position: relative;
 }
+.count2 .comma {
+    margin-top: 38px;
+}
 .count-down {
     position: relative;
     width: 30%;
     font-size: 30px;
-    margin-top: -65px;
+    margin-top: -85px;
 }
 .count-down1 {
     font-size: 30px;
@@ -373,17 +381,18 @@ body {
 .glyphicon-arrow-right{
 
 }
-
 .show-img li{
     margin-top: 20px;
     text-align: center;
+}
+.show-img .item {
+    padding-bottom: 40px;
 }
 .show-img {
     padding-top: 40px;
 }
 .showcase {
     text-align: center;
-    margin-top: 30px;
 }
 .eye {
     color: #00acdf;
@@ -455,6 +464,8 @@ body {
 }
 .form-footer button {
     border: 1px none;
+    font-size: 12px;
+    padding: 8px 10px;
 }
 .form-footer button:hover{
     background: #00acdf;
@@ -507,7 +518,7 @@ body {
     color: #999999;
 }
 .control2{
-    width: 220px;
+    width: 278px;
     float: left;
     margin-right: 10px;
 }
