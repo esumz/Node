@@ -169,6 +169,9 @@ body {
 .menu-bar{
     padding-top: 25px;
 }
+.menu-bar ul li{
+   z-index: 3;
+}
 .menu-bar li a {
     color: #b8b8b8;
 }
