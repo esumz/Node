@@ -67,7 +67,6 @@ body {
 .form-control {
     background-color: #2d2d2d;
     border: solid #2d2d2d;
-
 }
 .signup {
     background: #83cd29;
@@ -78,9 +77,20 @@ body {
     background: #00acdf;
 }
 .menu-top {
-    border-bottom: 2px solid #2d2d2d !important;
+    border-bottom: 1px solid #2d2d2d !important;
     padding-top: 7px;
-    padding-bottom: 40px;
+}
+.menu-top .search input {
+    border: 1px solid #2d2d2d;
+}
+.menu-top .top-menu {
+    margin-bottom: 0;
+}
+.menu-top .top-menu li a{
+    color: #b6b6b6;
+}
+.menu-top button.signup, .menu-top button.login {
+    border: none;
 }
 .menu-top button.signup:hover,.menu-top2 button.signup:hover{
     background: #83cd29;
@@ -162,6 +172,9 @@ body {
 .menu-bar li a {
     color: #b8b8b8;
 }
+.menu-bar li a:hover {
+    border-radius: 5px;
+}
 /*------------------BANNER--------------------*/
 #banner {
     background: #00acdf;
@@ -196,6 +209,10 @@ body {
 .downnode{
     padding: 15px 35px;
 }
+.downnode:hover {
+    background-color: #fff;
+    color: #232323 !important;
+}
 .download p a{
     color:#ffffff ;
     font-size: 18px;
@@ -223,6 +240,7 @@ body {
     font-family: Sparkler;
     font-weight: bold;
     margin-top: 3px;
+    padding-bottom: 0;
 }
 .count ul li a:hover {
     background: #fff;
@@ -244,7 +262,7 @@ body {
     position: relative;
     width: 30%;
     font-size: 30px;
-    margin-top: -60px;
+    margin-top: -65px;
 }
 .count-down1 {
     font-size: 30px;
